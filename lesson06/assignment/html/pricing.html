@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+
+    <title>Assignment 06 - Bootstrap 4</title>
+</head>
+
+<body>
+    <main class="main">
+        <!-- Creating the navbar that is used for all the pages -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./hand-made-cards.html">Hand-made Cards</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./grid.html">Grid</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Using a jumbotron to indicate the h1 and the paragraph -->
+        <div class="jumbotron text-center">
+            <h1>Saying it with a card</h1>
+            <p>Specialty hand-drawn cards and digital printed cards.</p>
+        </div>
+
+        <head>
+            <title>Bootstrap Example</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        </head>
+
+        <body>
+            <!-- Using the Bootstrap 4 accordion component to let te user know all the information on pricing -->
+            <div class="container">
+                <h2>Greeting card pricing information</h2>
+                <p><strong>Note:</strong> The <strong>prices are</strong> based upon expenses occurred to date and include projected future cost.</p>
+                <div id="accordion">
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                    Group 1: Specialty Hand-made greeting card
+                  </a>
+                        </div>
+                        <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                            <div class="card-body">
+                                Boxed Sets: Boxed sets are sold in groups of 10. There are two variations of designs. Elaborate designs set of 10 in a Box sell for $20. Simple designs set of 10 in a Box for $15. Individual Cards: Designed for individuals who pride themselves on finding
+                                just the right card for any occasion. Individual cards have multiple variations of designs for many occasions such as Mother’s Day, Father’s Day, Anniversary, Get Well, Thank You and Holidays. Simple individual cards priced
+                                at $5 each, and elaborate cards at $7 each. Size: The dimensions of these cards will be 5”x7”
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                    Group 2: Digital printed greeting card
+                </a>
+                        </div>
+                        <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                            <div class="card-body">
+                                Boxed Sets: Boxed sets are sold in groups of 10. There are two variations of designs. Elaborate designs set of 10 in a Box sell for $15. Simple designs set of 10 in a Box for $10. Individual Cards: Designed for individuals who pride themselves on finding
+                                just the right card for any occasion. Individual cards have multiple variations of designs for many occasions such as Mother’s Day, Father’s Day, Anniversary, Get Well, Thank You and Holidays. Simple individual cards priced
+                                at $3 each, and elaborate cards at $5 each. Size: The dimensions of these cards will be 5”x7”
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+                    Saying it with a card Summary:
+                  </a>
+                        </div>
+                        <div id="collapseThree" class="collapse" data-parent="#accordion">
+                            <div class="card-body">
+                                What was once a creative hobby has developed into a passion as we spend hours designing, drawing and assembling cards with envelopes. This passion of cards has turned into a skillful hand-crafted, personalized joy of gift we want to share with everyone.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </body>
+
+    </main>
+</body>
+<!-- Adding bootstrap cdn to the project  -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3
+/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUA
+dn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/
+bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qp
+Pea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous">
+</script>
+
+<!-- Using a jumbotron for the footer -->
+<div class="jumbotron text-center" style="margin-bottom:0">
+    <p class="copyright">&#169;2021 Saying it with a card, LLC | Seattle, WA</p>
+</div>
+
+</html>
