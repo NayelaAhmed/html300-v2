@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+
+    <title>Assignment 06 - Bootstrap 4</title>
+</head>
+
+<body>
+    <main class="main">
+        <!-- Creating the navbar that is used for all the pages and this page -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Hand-made Cards</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pricing.html">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./grid.html">Grid</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Using a jumbotron -->
+        <div class="jumbotron text-center">
+            <h1>Saying it with a card</h1>
+            <p>Specialty hand-drawn cards and digital printed cards.</p>
+        </div>
+
+        <div class="jumbotron text-center">
+            <h3>Choose Your Favorite Greeting Card</h3>
+        </div>
+
+        <head>
+            <title>Bootstrap Example</title>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        </head>
+
+        <body>
+
+            <div class="container-fluid">
+                <h1>Hand-made Cards</h1>
+
+                <br>
+                <!-- utilizes the Bootstrap 4 grid system for this hand-made-cards page. Only using col-sm for this page -->
+                <div class="container-fluid">
+                    <div class="row">
+
+                        <div class="col-sm "><img src="../images/Christmas-Poinsenta.jpg" class="img-fluid" alt="Responsive image"></div>
+                        <div class="col-sm "><img src="../images/LilyLavender.jpg" class="img-fluid" alt="Responsive image"></div>
+                        <div class="col-sm "><img src="../images/Ikebana.jpg" class="img-fluid" alt="Responsive image"></div>
+                        <div class="col-sm "><img src="../images/rose.jpg" class="img-fluid" alt="Responsive image"></div>
+
+                    </div>
+                    <a href="#" data-toggle="tooltip" title="Buy Card!">$5 for each hand made Card</a>
+                    <br><br>
+
+                    <div class="row">
+                        <div class="col-sm "><img src="../Images/pink-lily.jpg" class="img-fluid" alt="Responsive image"></div>
+                        <div class="col-sm "><img src="../Images/gentleFlowers.jpg" class="img-fluid" alt="Responsive image"></div>
+                        <div class="col-sm "><img src="../Images/pink-daisy.jpg" class="img-fluid" alt="Responsive image"></div>
+                        <div class="col-sm "><img src="../Images/lady-pink.jpg" class="img-fluid" alt="Responsive image"></div>
+                    </div>
+                </div>
+            </div>
+
+        </body>
+
+
+    </main>
+
+    <!-- Adding bootstrap cdn to the project  -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3
+/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUA
+dn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/
+bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qp
+Pea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous">
+    </script>
+
+    <!-- Using the tooltip to let the user know the prices for the greeting cards -->
+    <script>
+        $(document).ready(function() {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
+
+    <br>
+    <!-- Adding a jumbortron footer -->
+    <div class="jumbotron text-center" style="margin-bottom:0">
+        <p class="copyright">&#169;2021 Saying it with a card, LLC | Seattle, WA</p>
+    </div>
+
+</body>
+
+</html>
