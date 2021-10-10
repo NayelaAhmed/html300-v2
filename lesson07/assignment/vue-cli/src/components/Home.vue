@@ -68,7 +68,9 @@
           type="button"
           class="btn btn-success"
         >
-          Shop now
+          <span v-if="show">Buy this card</span>
+          <span v-else>Shop now</span>
+        
         </button>
       </div>
     </div>
@@ -119,7 +121,7 @@
 export default {
   methods: {
     goToHome() {
-      this.$router.push("/HandMadeCards");
+      this.$router.push("/cards");
     },
   },
   name: "Home",
