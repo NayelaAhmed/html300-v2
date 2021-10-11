@@ -5,7 +5,7 @@ import Pricing from '../components/Pricing';
 import HandMadeCards from '../components/HandMadeCards';
 import CardGrid from '../components/CardGrid';
 Vue.use(Router);
-
+//setting the paths in the router
 export default new Router({
     mode: 'history',
     routes: [{

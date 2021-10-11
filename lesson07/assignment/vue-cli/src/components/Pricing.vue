@@ -4,7 +4,7 @@
       <h1>Saying it with a card</h1>
       <p>Specialty hand-drawn cards and digital printed cards.</p>
     </div>
-
+    <!-- using the v-for to fill the content in the accordian -->
     <div v-for="datas in data" :key="datas.id">
       <b-card no-body class="mb-1">
         <b-card-header header-tag="header" class="p-1" role="tab">
@@ -24,7 +24,7 @@
         </b-collapse>
       </b-card>
     </div>
-
+    <!-- Using a jumbortron for the footer -->
     <div class="jumbotron text-center" style="margin-bottom: 0">
       <p class="copyright">
         &#169;2021 Saying it with a card, LLC | Seattle, WA

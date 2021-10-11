@@ -68,6 +68,8 @@
           type="button"
           class="btn btn-success"
         >
+
+        <!-- Using the v-if, and v-else to change the content -->
           <span v-if="show">Buy this card</span>
           <span v-else>Shop now</span>
         
