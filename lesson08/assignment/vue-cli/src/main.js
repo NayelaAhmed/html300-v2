@@ -1,0 +1,22 @@
+import Vue from 'vue'
+import App from './App.vue'
+import router from './routes';
+import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
+
+
+
+// Import Bootstrap an BootstrapVue CSS files (order is important)
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
+// import './app.scss'
+
+// Made BootstrapVue available throughouto the project
+Vue.use(BootstrapVue)
+    // Optionally install the BootstrapVue icon components plugin
+Vue.use(IconsPlugin)
+
+new Vue({
+    el: '#app',
+    router,
+    render: h => h(App)
+})
