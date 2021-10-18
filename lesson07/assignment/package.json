@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "vue-router": "^3.5.2",
+    "vue-simple-accordion": "^0.1.0"
+  }
+}
